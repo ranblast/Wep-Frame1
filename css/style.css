@@ -13,9 +13,11 @@ header .category {height: 36px; margin: 19px 0; float: left;}
 .category > li > a {padding: 0 20px; height: 36px; line-height: 36px; text-align: center; display: block;}
 
 .main-slider {position: relative; border: 3px solid blue; height: 400px;}
+.main-slider .item {font-size: 60px; text-align: center; width: 150px; height: 74px; margin: 0 auto; margin-top: 160px;}
 
-.box { width: 900px; margin: 0 auto; border: 3px solid gray; height: 340px; margin-top: 25px;}
 
+.box { width: 900px; margin: 0 auto; border: 3px solid gray; height: 340px; margin-top: 25px; position: relative;}
+.box .light {float: right; width: 300px; height: 100px; position: relative; }
 
 footer {border: 2px solid black; position: relative; height: 74px; top: 35px;}
 footer h1 {float: left; height: 74px; line-height: 74px; text-align: center;}
